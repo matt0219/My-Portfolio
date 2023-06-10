@@ -1,0 +1,74 @@
+header {
+    color: red;
+    font-family: Consolas, monaco, monosopace;
+}
+
+h1 {
+    text-align: center;
+}
+  
+.topnav {
+    background-color: black;
+    overflow: auto;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: solid;
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+.firstheader {
+    color: red;
+    font-family: Consolas, monaco, monosopace;
+}
+
+.secondheader {
+    color: red;
+    font-family: Consolas, monaco, monospace;
+    text-align: center;
+}
+
+.paragraph1 {
+    color: red;
+    font-family: Consolas, monaco, monospace;
+}
+
+h3 {
+    position: relative;
+    bottom: -10px;
+}
+
+.underline-text1 {
+    text-decoration: underline;
+}
+
+.underline-text2 {
+    text-decoration: underline;
+}
+
+#footer {
+    color: red;
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+}
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, body, footer {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+  }
