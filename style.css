@@ -55,10 +55,12 @@ h3 {
     text-decoration: underline;
 }
 
-#footer {
+.footer {
     color: red;
     text-align: center;
     font-family: Consolas, monaco, monospace;
+    position: relative;
+    bottom: -50px;
 }
 
 @media screen and (max-width: 768px) {
